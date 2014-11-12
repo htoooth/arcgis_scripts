@@ -1,0 +1,32 @@
+=======
+HISTORY
+=======
+
+
+Rev. 1.2 
+- Added dpi parameter to recalc page extent: this cause exported maps to improve output resolution, maintaining the correct layout envelope. 
+Rev. 1.3 
+- Added 2 options for PDF export: "convert marker symbols to polygons" and "embed all documents fonts".
+Rev. 1.4 
+- Added EPS output format. 
+- Added many output options for the 4 output formats. 
+- Replaced IExporter with IExport interface for all considered output formats. 
+Rev. 1.5 
+- Added PNG and SVG output formats with their own settings. 
+- Added AoInitialize interface to check licenses. 
+- Added the possibility to write a summary TXT report at the end of the process. 
+- Added the option to export only selected projects.
+Rev. 1.6
+- Added new functionalities
+- Added some enhancements (license check, for report file, to recalculate output size, spatial reference set programmatically for each dataframe, closing application while running in scheduling mode)
+Rev. 1.7
+- Rebuilt for compatibility with ArcGIS 9.3
+- Fixed a malfunction on “reset” button
+- Added the option “Layer and Attributes” and “Export Map Georeference Information” as export parameters for PDF maps
+Rev. 1.7.1
+- Fixed bug: no export occurs if extension project is in upper case
+- Automatically set Image Quality Resample Ratio to "best" for rasters
+Rev. 1.7.2
+- Fixed bug: exported map was smaller than original layout (when page size units are in inches)
+Rev. 1.7.3
+- Fixed bug: output raster quality in JPG export is very poor
