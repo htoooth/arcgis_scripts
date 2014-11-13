@@ -14,9 +14,9 @@ Usages
 ## exportmap.py
 Batch export mxd project file into jpg file.
 
-![图片](https://github.com/htoooth/batch_mxd/blob/master/imgs/exportjpg.png)
+![图片](https://github.com/htoooth/arcgis_scripts/blob/master/script/_img/exportjpg.png)
 
 ## savemxdwithversion.py
 Batch save 10.2 project file as 9.3 mxd project file.
 
-![图片](https://github.com/htoooth/batch_mxd/blob/master/imgs/savemxdwithversion.png)
+![图片](https://github.com/htoooth/arcgis_scripts/blob/master/script/_img/savemxdwithversion.png)
